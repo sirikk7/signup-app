@@ -1,38 +1,83 @@
-.App {
+* {
+  font-family: system-ui;
+}
+
+.container {
+  padding: 17px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.form-box {
+  border-radius: 7px;
+  box-shadow: 0px 0px 14px grey;
+  margin: auto;
+  padding: 5px 10px;
+  background-color: #fff3fe;
+}
+
+.form-item {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.input-field {
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  width: 100%
+}
+
+.input-field:focus-visible {
+  outline: lightblue auto 0px;
+  box-shadow: inset 0px 0px 2px 0px blueviolet;
+}
+
+.signup-title {}
+
+.gender {}
+
+.singup-btn {
+  text-align: center;
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+  border: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-list {
+  border-radius: 7px;
+  box-shadow: 0px 0px 14px grey;
+  padding: 5px 10px;
+  margin-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-list-search {
+
+  margin: 6px 0px 0 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user-table {
+  font-family: arial, sans-serif;
+  background-color: cornsilk;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: lightblue;
+}
+
+
+.user-list-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-between;
 }
