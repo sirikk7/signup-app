@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 
 const defaultUsers = [
@@ -208,5 +207,3 @@ export default function App() {
 		</div>
 	);
 }
-
-ReactDOM.render(<App />, document.getElementById('root'));
